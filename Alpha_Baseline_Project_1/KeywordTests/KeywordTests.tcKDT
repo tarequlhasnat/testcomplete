@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
 		<folder name="Bearstore_Common">
 			<child name="Test_Open_and_Close_Bearstore" key="{910F8168-EA2A-4633-BA18-637990641CB1}" path="Test_Open_and_Close_Bearstore.tcKDTest" />
 			<child name="Mod_Close_Browser" key="{0B0EA2CB-DC83-4491-A748-B619E60EA3A9}" path="Mod_Close_Browser.tcKDTest" />
-			<child name="Mod_Open_Browser" key="{AACEBE5A-CAD5-4AF4-93FF-060DB7E68C25}" path="Mod_Open_Browser.tcKDTest" />
+			<child name="Mod_Open_Chrome_Browser" key="{AACEBE5A-CAD5-4AF4-93FF-060DB7E68C25}" path="Mod_Open_Chrome_Browser.tcKDTest" />
 			<child name="Test_Data_Driven" key="{2868AEF4-2E0E-44D5-BAE2-56B0F1E44A20}" path="Test_Data_Driven.tcKDTest" />
 			<child name="Mod_Contact_User" key="{91B277DC-6BBC-4E68-A4B1-FBF5F20F29AD}" path="Mod_Contact_User.tcKDTest" />
 			<child name="Test_Register_User" key="{C288BA28-0C93-4417-89DD-B9F6388A3BDA}" path="Test_Register_User.tcKDTest" />
@@ -12,6 +12,7 @@
 			<child name="Test_Login_Logout" key="{DF087B9F-8409-4A23-8BC1-BBF40499BD62}" path="Test_Login_Logout.tcKDTest" />
 			<child name="Mod_Login_Jack_Power" key="{F4ECA0D7-C5D7-4C8F-8D43-FF2F375F5887}" path="Mod_Login_Jack_Power.tcKDTest" />
 			<child name="Mod_Logout" key="{A7EC2B2E-6C89-4FB7-89C6-5D325725792E}" path="Mod_Logout.tcKDTest" />
+			<child name="Mod_Open_Edge_Browser" key="{49FBDC76-7434-4F66-97C6-55CEB31A6938}" path="Mod_Open_Edge_Browser.tcKDTest" />
 		</folder>
 		<folder name="GeneralEvents">
 			<child name="GeneralEvents_OnStartTest" key="{63CDA883-B657-4AE7-A3E8-6A25E3919BA8}" path="GeneralEvents_OnStartTest.tcKDTest" />
