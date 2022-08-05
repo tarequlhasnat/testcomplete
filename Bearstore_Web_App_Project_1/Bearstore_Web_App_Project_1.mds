@@ -89,7 +89,7 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
-					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Test_Login_Logout_Data_Driven" key="{B2E60BBE-0BF7-44B7-BE60-ABB7CDCC97C8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{F409873A-1F4C-487C-8601-8F6A1FCCC97B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
@@ -263,7 +263,7 @@
 		</data>
 	</variables>
 	<settings key="{65790EC2-BA5D-4B61-8876-0539EA767551}">
-		<settingsVersion value="15.41" />
+		<settingsVersion value="15.42" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -385,7 +385,9 @@
 			</data>
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
+		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
 		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to CucumberStudio." />
 		<setting name="HipTest_SaveResults" type="1" value="True" />
