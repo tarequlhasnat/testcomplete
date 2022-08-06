@@ -41,6 +41,7 @@
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Register_User">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="UserName" DefVarType="8" DefValueType="6" DefValueValue="MollyBrown001" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="UserName" />
 								<Parameter Name="EMail" DefVarType="8" DefValueType="6" DefValueValue="MollyBrown001@Null.org" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="EMail" />
@@ -54,7 +55,7 @@
 					</Operation>
 					<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 						<Data VariableType="4" VariableName="User_Info">
-							<Records FromBegin="False" ToEnd="False" StartRecord="21" StopIndex="25" />
+							<Records FromBegin="False" ToEnd="False" StartRecord="30" StopIndex="35" />
 						</Data>
 						<Children>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">

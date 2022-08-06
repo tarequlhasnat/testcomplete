@@ -37,22 +37,27 @@
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="False" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 					<testItem name="Open_and_Close_All_Browsers" key="{11786AEC-752C-4CA9-9345-317E571BF7EF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C9BA521A-26CC-4ACB-BF2A-7C7DC1DD964B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
 					</testItem>
+					<testItem name="Open_and_Close_All_Browsers_Alternate" key="{636BD1C9-4495-4BA5-B1E5-68F514E46FA1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6603A25F-F536-409E-ACB8-70729DE10D6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Open_Close_and_Terminate_Browsers" key="{C77539BE-B7D8-43E0-9A57-45C71D812D25}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BA73FE6D-226B-4A3F-B624-FAC61C136619}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
 					<testItem name="Open_Browsers_and_Delete_History" key="{F42B5525-B576-4835-AF4D-BDCACC3EC488}" group="False" parallel="False" enabled="False" testMoniker="KDT\{72434DA8-1869-4AE4-B920-D0179537D5E4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Open_Close_and_Terminate_Browsers" key="{C77539BE-B7D8-43E0-9A57-45C71D812D25}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BA73FE6D-226B-4A3F-B624-FAC61C136619}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="CBT" />
-						<children />
-					</testItem>
-					<testItem name="Open_All_Browsers_No_Close" key="{CF6D4E6E-A2A8-492E-BFB1-50E093B295AF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{60BDBDBB-7027-41CF-880D-4D52604CBE6D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="CBT" />
 						<children />
