@@ -8,6 +8,8 @@
 			<child name="Bearstore_Web_App_Project_1" key="{D7B81185-6C89-4EEE-8C2D-C2C4406B1A72}" path="Bearstore_Web_App_Project_1\Bearstore_Web_App_Project_1.mds" />
 			<child name="Orders_Desktop_App_Project_1" key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" path="Orders_Desktop_App_Project_1\Orders_Desktop_App_Project_1.mds" />
 			<child name="Vacation_Web_App_Project" key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" path="Vacation_Web_App_Project\Vacation_Web_App_Project.mds" />
+			<child name="Orders_JavaScript_Project" key="{2F2C7450-079D-4FC4-936B-E10A0C071551}" path="Orders_JavaScript_Project\Orders_JavaScript_Project.mds" />
+			<child name="Orders_Python_Project" key="{290A6176-0D71-4964-AF76-319901CC5C71}" path="Orders_Python_Project\Orders_Python_Project.mds" />
 		</folder>
 		<folder name="Utility_Projects">
 			<child name="Utility_Project_1" key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" path="Utility_Project_1\Utility_Project_1.mds" />
@@ -21,7 +23,9 @@
 			<testItem key="{31452752-7AB4-43FD-A92F-B84E62622560}" enabled="True" timeout="0" stopOnError="False" description="Tools for browser functions" />
 			<testItem key="{1C60CC0D-CE3D-44B7-BC9B-4A9C25D592AB}" enabled="True" timeout="0" stopOnError="False" description="Sample Desktop Project" />
 			<testItem key="{CD1B24DF-8DDF-44CC-8BEB-DADA78A26D0A}" enabled="True" timeout="0" stopOnError="False" description="Sample Web App Project" />
-			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="Samples of generic utility scripts" />
+			<testItem key="{11774A11-15ED-4EC6-90DC-8DD55C30C2A6}" enabled="True" timeout="0" stopOnError="False" description="Sample of generic utility scripts (Browsers," />
+			<testItem key="{290A6176-0D71-4964-AF76-319901CC5C71}" enabled="True" timeout="0" stopOnError="False" description="Sample clone of Orders_C#_Python" />
+			<testItem key="{2F2C7450-079D-4FC4-936B-E10A0C071551}" enabled="True" timeout="0" stopOnError="False" description="Sample clone of Orders_C#_JavaScript" />
 		</children>
 	</testItems>
 	<variables key="{F24362C5-2BEF-4CA4-B93C-B50DB17E0D9E}" />

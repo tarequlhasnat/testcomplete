@@ -72,6 +72,9 @@
 									<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.browser" />
 								</Data>
 							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="Kill_Edge" />
+							</Operation>
 						</Children>
 					</Operation>
 				</Children>

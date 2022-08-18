@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{6B75EA9A-75F2-4811-A8A4-5BED7839B9A0}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{182711DD-705E-42B8-B800-04DFBFADBF60}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\Public\Documents\TestComplete 15 Samples\Desktop\Orders\C#\bin\Release\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
