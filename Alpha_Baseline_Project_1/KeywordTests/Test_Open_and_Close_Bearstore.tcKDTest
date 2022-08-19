@@ -37,7 +37,7 @@
 				<Data GroupName="Test_Open_and_Close_Bearstore" />
 				<Children>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="Mod_Open_Chrome_Browser" />
+						<Data Description="Runs a keyword test." TestName="Mod_Open_Edge_Browser" />
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 						<Data Description="Runs a keyword test." TestName="Mod_Close_Browser" />

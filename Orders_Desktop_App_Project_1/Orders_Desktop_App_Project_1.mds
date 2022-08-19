@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="NameMapping" key="{057B7069-3447-493B-A353-E0CDC5143CDB}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
@@ -33,7 +33,7 @@
 	</testItems>
 	<variables key="{73079149-8167-46AC-B07B-25D4093DA9F1}" />
 	<settings key="{4E375D7C-8622-4361-A19D-5C8AC6519FA6}">
-		<settingsVersion value="15.40" />
+		<settingsVersion value="15.41" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
