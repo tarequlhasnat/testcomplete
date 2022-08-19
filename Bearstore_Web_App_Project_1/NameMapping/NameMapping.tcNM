@@ -270,7 +270,6 @@
 									</Child>
 									<Child Name="textnodeWelcomeToOurStore2" Key="{716AB6F6-7251-42D4-AE26-D1071DD719CA}">
 										<Image FileName="-1677609432" Left="405" Top="314" Right="1515" Bottom="352" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//h1[.=&apos;Welcome to our store&apos;]" />
@@ -288,7 +287,6 @@
 									</Child>
 									<Child Name="imageSmartstore" Key="{E551A5D8-23CE-460B-A156-528DDCC46A50}">
 										<Image FileName="-495878869" Left="395" Top="172" Right="645" Bottom="217" />
-										<TypeInfo Item0="{F122A207-0B1F-497B-A538-D7C04C5CF244}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
@@ -758,7 +756,6 @@
 									</Child>
 									<Child Name="panelLoginWasUnsuccessfulPlease" Key="{EBC747C3-11B7-4D51-9F88-CF078A04B6AA}">
 										<Image FileName="-1286494000" Left="1100" Top="496" Right="1483" Bottom="588" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;validation-summary-errors&apos;)]" />
@@ -773,7 +770,6 @@
 									</Child>
 									<Child Name="textnodeLoginWasUnsuccessfulPlea" Key="{4DA37F32-37AD-4992-BBFC-2BED42D3A821}">
 										<Image FileName="1318773793" Left="1164" Top="509" Right="1442" Bottom="552" />
-										<TypeInfo Item0="{F06DCDCB-1D79-42E1-AF30-4E43B35701DB}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;Login was unsuccessful. Please correct the errors and try again.&apos;]" />
@@ -1206,6 +1202,53 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="explorer" Key="{9163853D-E363-4808-9E1B-6C0EE6EC902F}">
+						<TypeInfo Item0="{92380054-AFE8-4848-B9FA-D5615AD94661}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{C4D244DF-824D-487D-91D5-322BB32EF4EC}">
+								<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
+								<TypeInfo Item0="{70AC6E21-5C66-4DD7-BF99-E0A146C7A3DD}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{890653F7-111F-404E-B101-AA3217156240}">
+										<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
+										<TypeInfo Item0="{7B58511C-D82C-40A4-A0C1-25B5E7D6EAAF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{BEFF0493-73BF-46E7-B133-E7D715D0EB6E}">
+												<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
+												<TypeInfo Item0="{B7B8B751-8948-41FE-8579-95D0E13BEBBA}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1317,6 +1360,13 @@
 					<Child Name="link" Owner="{5F5166B8-97B6-460F-948E-1E9EE448F5F2}">
 						<Child Name="imageYourStoreName" Owner="{4F67A665-4E52-4C34-B5D8-77CFACE96E1D}" />
 					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{9163853D-E363-4808-9E1B-6C0EE6EC902F}">
+			<Child Name="wndProgman" Owner="{C4D244DF-824D-487D-91D5-322BB32EF4EC}">
+				<Child Name="SHELLDLL_DefView" Owner="{890653F7-111F-404E-B101-AA3217156240}">
+					<Child Name="FolderView" Owner="{BEFF0493-73BF-46E7-B133-E7D715D0EB6E}" />
 				</Child>
 			</Child>
 		</Child>
