@@ -97,7 +97,7 @@ function Mod_Login_Jack_Power()
   //Delays the test execution for the specified time period.
   Delay(2000, "2 second delay before running Checkpoint");
   //Checks whether the 'contentText' property of the Aliases.browser.pageShop.header.navUsd.linkLogIn object equals 'JackPower001'.
-  aqObject.CheckProperty(Aliases.browser.pageShop.header.navUsd.linkLogIn, "contentText", cmpEqual, "JackPower001");
+   aqObject.CheckProperty(Aliases.browser.pageShop.header.navUsd.linkLogIn, "contentText", cmpEqual, "JackPower001");
   //The end of the Module_Routines group
   //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
   Log.PopLogFolder();
