@@ -782,6 +782,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="link" Key="{BE0F8B90-9530-40A7-9C31-91B52CB5520D}">
+										<Image FileName="-102392748" Left="123" Top="180" Right="373" Bottom="225" />
+										<TypeInfo Item0="{046589D2-5502-4BFE-8A2D-19B989D41AB7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{086396E6-6F26-4893-B110-249FA9013AE8}">
+										<Image FileName="-102392748" Left="123" Top="180" Right="373" Bottom="225" />
+										<TypeInfo Item0="{D599546C-49A3-4911-BF59-6C2B3D6DF291}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageRegister" Key="{1655A722-3D3E-4ABC-B949-ACD70584AFDC}">
@@ -1203,7 +1236,6 @@
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{9163853D-E363-4808-9E1B-6C0EE6EC902F}">
-						<TypeInfo Item0="{92380054-AFE8-4848-B9FA-D5615AD94661}" />
 						<Properties>
 							<Property Name="ProcessName">
 								<Value Value="explorer" />
@@ -1212,7 +1244,6 @@
 						<Children>
 							<Child Name="wndProgman" Key="{C4D244DF-824D-487D-91D5-322BB32EF4EC}">
 								<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
-								<TypeInfo Item0="{70AC6E21-5C66-4DD7-BF99-E0A146C7A3DD}" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="Progman" />
@@ -1224,7 +1255,6 @@
 								<Children>
 									<Child Name="SHELLDLL_DefView" Key="{890653F7-111F-404E-B101-AA3217156240}">
 										<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
-										<TypeInfo Item0="{7B58511C-D82C-40A4-A0C1-25B5E7D6EAAF}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="SHELLDLL_DefView" />
@@ -1233,7 +1263,6 @@
 										<Children>
 											<Child Name="FolderView" Key="{BEFF0493-73BF-46E7-B133-E7D715D0EB6E}">
 												<Image FileName="-178547893" Left="0" Top="0" Right="2726" Bottom="768" />
-												<TypeInfo Item0="{B7B8B751-8948-41FE-8579-95D0E13BEBBA}" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="SysListView32" />
@@ -1323,6 +1352,9 @@
 						<Child Name="navMenubarMyAccount" Owner="{8888CFEE-FE6D-4ED6-8041-EF891F0A9636}">
 							<Child Name="linkLogIn" Owner="{7DBDD823-4401-49F1-B599-A29ABE588FB1}" />
 						</Child>
+					</Child>
+					<Child Name="link" Owner="{BE0F8B90-9530-40A7-9C31-91B52CB5520D}">
+						<Child Name="imageSmartstore" Owner="{086396E6-6F26-4893-B110-249FA9013AE8}" />
 					</Child>
 				</Child>
 			</Child>
