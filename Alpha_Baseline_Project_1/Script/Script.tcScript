@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
-	<children>
-		<child name="EventControl_OnStartTest" key="{1FEE9663-A291-4790-A80D-094CA235267B}" path="EventControl_OnStartTest.js" />
-	</children>
+	<children />
 </Root>
